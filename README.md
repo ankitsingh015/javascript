@@ -1,30 +1,25 @@
-# JavaScript Playground 
+# JavaScript Lab 
 
-This repo tracks my journey learning JavaScript from basics to advanced.
+This is my personal self-study repository for mastering modern JavaScript.
+I’m building knowledge step by step — from fundamentals to advanced topics — and experimenting with small projects.
 
-## Topics Covered
+## Topics I’m covering
 
-- Basics: variables, loops, functions, arrays
-- DOM manipulation and events
-- Asynchronous JS (callbacks, promises, async/await)
-- Modules and modern ES6+ features
-- Small projects to apply concepts
+- **Fundamentals** → variables, datatypes, type conversion, comparisons
+- **Memory & Internals** → stack vs heap, execution context
+- **Strings, Numbers & Dates** → string methods, math utilities, date & time
+- **Arrays & Objects** → array helpers, object manipulation, destructuring
+- **Functions & Scope** → function basics, scope, closures, `this`, arrow functions
+- **Control Flow & Loops** → conditionals, loops, high-order array methods
+- **DOM Manipulation** → selectors, creating/updating/removing elements
+- **Events & Async** → event handling, async JS, promises, fetch API
+- **OOP & Advanced** → prototypes, classes, call/bind, getters & setters, closures
+- **Projects** → building small apps to apply concepts
 
-## Structure
+## How to run
 
-- `basics/` → syntax, loops, functions, arrays
-- `dom/` → event handling, DOM updates
-- `async/` → fetch API, async/await
-- `projects/` → mini projects (todo app, quiz, etc.)
-- `advanced/` → modules, patterns, tooling
+Run any `.js` file with Node:
 
-## How to Run
-
-- Open any `.html` file in your browser
-- Or use `npm run dev` if the folder has a Vite setup
-
-## Goals
-
-- Build a strong foundation in JavaScript
-- Practice by making small projects
-- Document progress in `notes/`
+```bash
+node fundamentals/variables.js
+```
