@@ -1,7 +1,7 @@
 /*
   Objects store key-value pairs
-- Keys are strings (or can be symbols in advanced usage)
-- Values can be any type: string, number, array, object, function
+  Keys are strings (or can be symbols in advanced usage)
+  Values can be any type: string, number, array, object, function
 */
 
 // Creating an object
